@@ -4,17 +4,16 @@ function atualizarRelogio() {
     const minutos = agora.getMinutes().toString().padStart(2, '0');
     const segundos = agora.getSeconds().toString().padStart(2, '0');
     
-    // Saudação
+
     let saudacao = "";
-    if (horas >= 5 && horas < 12) saudacao = "Bom dia";
-    else if (horas >= 12 && horas < 18) saudacao = "Boa tarde";
-    else saudacao = "Boa noite";
+    if (horas >= 5 && horas < 12) saudacao = "Bom dia!";
+    else if (horas >= 12 && horas < 18) saudacao = "Boa tarde!";
+    else saudacao = "Boa noite!";
 
     const displayRelogio = `${saudacao}! Agora são ${horas}:${minutos}:${segundos}`;
     document.getElementById('relogio-saudacao').innerText = displayRelogio;
 }
 
-// Dark Mode Toggle
 const btn = document.getElementById("theme-toggle");
 btn.addEventListener("click", () => {
     const currentTheme = document.documentElement.getAttribute("data-theme");
