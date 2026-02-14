@@ -1,0 +1,70 @@
+:root {
+    --bg-color: #f4f4f9;
+    --text-color: #333;
+    --nav-bg: #2c3e50;
+    --nav-text: #fff;
+    --accent-color: #3498db;
+    --card-bg: #fff;
+}
+
+[data-theme="dark"] {
+    --bg-color: #1a1a1a;
+    --text-color: #f4f4f9;
+    --nav-bg: #000;
+    --card-bg: #2d2d2d;
+    --accent-color: #5dade2;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    transition: all 0.3s ease;
+}
+
+nav {
+    background-color: var(--nav-bg);
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: var(--nav-text);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: var(--card-bg);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+button#theme-toggle {
+    cursor: pointer;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    background: var(--accent-color);
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 20px;
+}
