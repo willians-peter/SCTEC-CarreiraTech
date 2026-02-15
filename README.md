@@ -5,7 +5,7 @@ Peter Willian's Cipriano
 
 ## 1. Descrição do Projeto
 
-Esta landing page foi desenvolvida como projeto final para o curso de programação do SENAI/SC LAB365. Oom objetivo de consolidar minha trajetória
+Esta landing page foi desenvolvida como projeto final para o curso de programação do SENAI/SC LAB365. Com objetivo de consolidar minha trajetória
 profissional, unindo minha experiência na área da saúde e buscando adquirir conhecimento e pratica em tecnoloias de softwares.
 
 ## 2. Tecnologias Utilizadas
