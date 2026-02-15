@@ -36,3 +36,11 @@ Para atingir o nível máximo de exigência técnica, o projeto utiliza:
 2. Abra o arquivo `index.html` em qualquer navegador moderno.
 3. Navegue pelas seções através do menu superior.
 4. Acesso pelo link: (projeto disponivel no github)
+
+Link do site:
+
+https://github.com/willians-peter/SCTEC-CarreiraTech.git
+
+Link do GitHub:
+
+https://github.com/willians-peter/SCTEC-CarreiraTech.git
