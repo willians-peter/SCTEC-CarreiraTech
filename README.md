@@ -16,6 +16,7 @@ Para atingir o nível máximo de exigência técnica, o projeto utiliza:
 - **CSS3:** Estilização moderna, uso de Flexbox para alinhamento e variáveis CSS para suporte a temas.
 - **JavaScript:** Implementação de lógica de saudação dinâmica (Bom dia/tarde/noite), relógio em tempo real e manipulador de eventos para o Dark Mode.
 
+
 ## 3. Funcionalidades
 
 - **Navegação Modular:** Menu fixo em todas as páginas para facilitar o acesso.
